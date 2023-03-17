@@ -3,7 +3,9 @@
 }
 #header_bg header {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -23,7 +25,9 @@
 
 #slide_wrap {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
   position: relative;
 }
 #slide_wrap .slide_container .slide {
@@ -75,7 +79,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
   padding: 50px 0;
 }
 #gallery_wrap .gallery {
@@ -92,7 +98,9 @@
 
 #bnr_wrap {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
   background: #000;
   width: 100%;
   height: 150px;
@@ -110,7 +118,9 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px;
   padding: padding50;
 }
 #card_wrap .card {
