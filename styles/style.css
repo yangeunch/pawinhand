@@ -130,4 +130,50 @@
 }
 #card_wrap .card p {
   padding-bottom: 30px;
+}
+
+#qa_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+#qa_wrap h2 {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+#qa_wrap #qaFrm {
+  color: #000;
+}
+#qa_wrap #qaFrm fieldset {
+  display: flex;
+  flex-flow: column nowrap;
+}
+#qa_wrap #qaFrm fieldset input[name$=id] {
+  background-color: #999;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+#qa_wrap #qaFrm fieldset input[name$=number] {
+  background-color: #999;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+#qa_wrap #qaFrm fieldset #user_qa {
+  background-color: #999;
+  padding: 10px 0 150px;
+  margin-bottom: 10px;
+}
+#qa_wrap #qaFrm fieldset #qa_btn {
+  background-color: #000;
+  padding: 20px 0;
+  color: #fff;
+}
+
+footer {
+  background-color: #000;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  line-height: 100px;
 }/*# sourceMappingURL=style.css.map */

@@ -104,3 +104,29 @@ $padding50:50px 0;
         p {padding-bottom:30px;}
     }
 }//e:card
+#qa_wrap {width:1200px; margin:0 auto; margin-top:50px;
+    h2 {font-size:1.15rem; margin-bottom:10px;}
+    #qaFrm {color:#000;
+        fieldset {display:flex; flex-flow:column nowrap;
+            input[name$=id] {
+                background-color:#999; padding:10px 0;
+                margin-bottom:10px;
+            }
+            input[name$=number] {
+                background-color:#999; padding:10px 0;
+                margin-bottom:10px;
+            }
+
+            #user_qa {
+                background-color:#999; padding:10px 0 150px;
+                margin-bottom:10px;
+            }
+            #qa_btn {
+                background-color:#000; padding:20px 0; color:#fff;
+            }
+        }
+    }
+}//e:qa_wrap
+footer {background-color:#000; height:100px; margin-top:30px;
+    text-align: center; color:#fff; line-height: 100px;
+}
